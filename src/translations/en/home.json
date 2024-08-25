@@ -1,0 +1,10 @@
+{
+    "navBarAboutMe" : "About Me",
+    "navBarInitiatives" : "Initiatives",
+    "navBarProjects" : "Projects",
+    "navBarBlog" : "Blog",
+    "greeting": "Hello! Welcome to my website",
+    "description": "I am a frontend developer specialized in React.js",
+    "bottomDownload": "Download my cv"
+  }
+  
