@@ -68,7 +68,7 @@ function Navbar({ textColor, bgColor, hoverColor, colorBurger}) {
         </button>
         <Link to="/">
         <div className="h-auto">
-        <img alt='logo' src={LogoImg} alt="logo" className="flex md:hidden w-40 pb-8" onClick={toggleMenu} />
+        <img alt='logo' src={LogoImg} className="flex md:hidden w-40 pb-8" onClick={toggleMenu} />
       </div>
       </Link>
         <Link to="/about" onClick={toggleMenu} className={`w-full flex items-center justify-center text-3xl mb-6 ${colorBurger} ${hoverColor}`}>

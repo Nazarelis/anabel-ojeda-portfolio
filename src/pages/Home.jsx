@@ -1,6 +1,6 @@
 // import FirstBannerHome from "../components/FirstBannerHome"
-import BannerAboutMe from "../components/BannerAboutMe"
-import BannerMyBlog from "../components/BannerMyBlog"
+// import BannerAboutMe from "../components/BannerAboutMe"
+// import BannerMyBlog from "../components/BannerMyBlog"
 import Header from "../components/Header"
 
 function Home(){
@@ -8,8 +8,8 @@ function Home(){
         <>
             <Header/>
             {/* <FirstBannerHome /> */}
-            <BannerAboutMe />
-            <BannerMyBlog />
+            {/* <BannerAboutMe />
+            <BannerMyBlog /> */}
 
         </>
     )
