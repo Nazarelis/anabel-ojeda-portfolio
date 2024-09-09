@@ -1,15 +1,23 @@
-// import FirstBannerHome from "../components/FirstBannerHome"
 // import BannerAboutMe from "../components/BannerAboutMe"
-// import BannerMyBlog from "../components/BannerMyBlog"
 import Header from "../components/Header"
+// import SectionInitiatives from "../components/SectionInitiatives"
+// import SectionContact from "../components/SectionContact"
+// import SectionProjects from "../components/SectionProjects"
+// import SectionTools from "../components/SectionTools"
+
 
 function Home(){
     return(
         <>
             <Header/>
-            {/* <FirstBannerHome /> */}
+            {/* <div className="bg-[#353938]">
+                <img src="src\assets\Group2.png" className="w-full h-auto"></img>
+            </div> */}
             {/* <BannerAboutMe />
-            <BannerMyBlog /> */}
+            <SectionInitiatives />
+            <SectionProjects/>
+            <SectionContact/> */}
+
 
         </>
     )

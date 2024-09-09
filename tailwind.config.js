@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        'pink': 'D99E91',
+        'backg': '353938'
+      },
       keyframes: {
         slideIn: {
           '0%': { transform: 'translateX(-100%)', opacity: '0' },
@@ -20,6 +24,10 @@ export default {
         '400': '400ms',
         '600': '600ms',
         '1000': '1000ms',
+      },
+      fontFamily: {
+        raleway: ['Raleway', 'sans-serif'],
+        robotoSlab: ['Roboto Slab', 'serif'],
       },
     },
     },

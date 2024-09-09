@@ -43,9 +43,6 @@ function Navbar({ textColor, bgColor, hoverColor, colorBurger}) {
         <Link to="/projects" className={`text-lg w-auto p-4 ${textColor} ${hoverColor}`}>
           {t('navBarProjects')}
         </Link>
-        <Link to="/blog" className={`text-lg w-auto p-4 ${textColor} ${hoverColor}`}>
-          {t('navBarBlog')}
-        </Link>
       </div>
 
       <div className="ml-auto mr-12 xl:mr-40 w-auto md:flex hidden items-center justify-center">
@@ -80,9 +77,7 @@ function Navbar({ textColor, bgColor, hoverColor, colorBurger}) {
         <Link to="/projects" onClick={toggleMenu}  className={` w-full flex items-center justify-center text-3xl mb-6 ${colorBurger} ${hoverColor}`}>
           {t('navBarProjects')}
         </Link>
-        <Link to="/blog" onClick={toggleMenu}  className={`w-full flex items-center justify-center text-3xl mb-6 ${colorBurger} ${hoverColor}`}>
-          {t('navBarBlog')}
-        </Link>
+
         <div className="flex flex-row pt-10 w-full flex items-center justify-center">
           <LanguageBottom />
         </div>

@@ -1,10 +1,34 @@
 {
-    "navBarAboutMe" : "About Me",
-    "navBarInitiatives" : "Initiatives",
-    "navBarProjects" : "Projects",
-    "navBarBlog" : "Blog",
-    "greeting": "Hello! Welcome to my website",
-    "description": "I am a frontend developer specialized in React.js",
-    "bottomDownload": "Download my cv"
+  "navBarAboutMe": "About Me",
+  "navBarInitiatives": "Initiatives",
+  "navBarProjects": "Projects",
+  "navBarBlog": "Blog",
+  "greetingOne": "Hi there",
+  "greetingTwo": "I'm Anabel Ojeda",
+  "description": "Frontend Developer | React",
+  "titleAboutMe": "About Me",
+  "parrAboutMe": "I arrived in Argentina at the beginning of 2022, where I started learning programming on my own, studying HTML, CSS, and JavaScript. In August of the same year, I had the opportunity to begin a Software Development degree at UADE (Universidad Argentina de la Empresa).",
+  "titleWebsQC": "Webs that Connect",
+  "parrWebsQC": "My most recent personal project, made with a lot of enthusiasm and love.",
+  "titleCardOne": "Dulce Cielo",
+  "parrCardOne": "Website for a pastry business",
+  "titleCardTwo": "????",
+  "parrCardTwo": "????????????",
+  "titleCardThree": "????",
+  "parrCardThree": "???????????",
+  "sectionFeaturedWorks": "Featured Works",
+  "sectionKit": "My Toolkit",
+  "sectionContact": "Let's Talk About Your Project",
+  "pFooter":"Dev by Anabel Ojeda | Copyright © 2024",
+
+    "button": {
+      "exploreMyP": "Explore my projects",
+      "downloadCV": "Download my CV",
+      "knowMe": "Know me more",
+      "seeMore": "See more",
+      "goToWebsite": "Go to website",
+      "whatIsWebsQC": "What is Webs that Connect?",
+      "seeMyWork": "See my work",
+      "contactMe": "Contact me"
+    }
   }
-  

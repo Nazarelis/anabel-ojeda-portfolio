@@ -4,9 +4,9 @@ import FirstBannerHome from "./FirstBannerHome";
 function Header() {
     return (
         <>
-            <div className="w-full h-screen relative bg-gray-900 bg-cover bg-center bg-[url('/src/assets/playa.jpg')] shadow-2xl">
-                <div className="absolute inset-0 bg-black opacity-50 z-0"></div> 
-                <Navbar textColor="text-white" bgColor="bg-transparent" hoverColor="hover:text-[#F2D6A2]" />
+            <div className="w-full h-screen relative bg-gray-900 bg-cover bg-center bg-[url('/src/assets/montaña3.jpg')] shadow-2xl">
+                <div className="absolute inset-0 bg-[#141F2D] opacity-30 z-0"></div>
+                <Navbar textColor="text-[#272F40]" bgColor="bg-transparent" hoverColor="hover:text-[#F2BF5E]" />
                 <FirstBannerHome />
             </div>
         </>
