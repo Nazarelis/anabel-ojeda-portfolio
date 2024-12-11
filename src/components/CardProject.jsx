@@ -9,7 +9,7 @@ function CardProject({src, href}){
         <motion.div 
         whileHover={{ scale: 1.1 }}>
 
-        <div className='md:w-full w-1/2 md:p-8 hover:bg-pink'>
+        <div className='w-full md:p-8 hover:bg-pink'>
         <a href={href} target="_blank" rel="noopener noreferrer">
             <img src={src} alt="imagen proyecto" className=''/>
             </a>

@@ -18,12 +18,12 @@ function BannerAboutMe(){
         className="w-full h-screen bg-[#E9E9E9] flex justify-center flex-col">
             <div className="flex justify-center items-center w-full ">
                 <div className='w-1/2 '>
-                    <h1 className="flex flex-col pr-12 text-[#F2BF5E] text-center text-4xl ">
+                    <h1 className="flex flex-col pr-12 text-[#F2BF5E] text-center md:text-4xl ">
                     {t('titleAboutMe')}
                     </h1>
                 </div>
                 <div className='w-1/2 flex items-center '>
-                    <p className="w-4/5 text-justify text-[#272F40] flex text-2xl">
+                    <p className="w-4/5 text-justify text-[#272F40] flex md:text-2xl">
                     {t('parrAboutMe')}
                     </p>
                 </div>

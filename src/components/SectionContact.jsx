@@ -6,13 +6,13 @@ function SectionContact(){
 
     return(
         <>
-        <div className="w-full md:h-screen bg-[#F2BF5E] flex justify-center flex-col">
+        <div className="w-full md:h-screen h-60 bg-[#F2BF5E] flex justify-center flex-col">
             <div className="flex md:mt-24 justify-center items-center w-full ">
-            <h1 className="flex flex-col pr-12 text-[#E9E9E9] text-center text-6xl ">
+            <h1 className="flex flex-col justify-center items-center pb-4 text-[#E9E9E9] text-center md:text-6xl text-2xl ">
             {t('sectionContact')}
             </h1>
             </div>
-            <div className='flex flex-column md:pt-20 justify-center w-full h-1/2'>
+            <div className='flex flex-column justify-center items-center md:w-full md:h-1/2'>
                 <ButtonsContact/>
             </div>
         </div>

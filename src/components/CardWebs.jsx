@@ -1,26 +1,26 @@
-import { useTranslation } from 'react-i18next';
+// import { useTranslation } from 'react-i18next';
 // import Button from './Button';
 import PropTypes from 'prop-types';
 import CardButton from './CardButton';
 import {motion} from 'framer-motion'
 function CardWeb({titleWebCard, pWebCard, src}){
-    const { t } = useTranslation('home');
+    // const { t } = useTranslation('home');
 
     return(
         <motion.div 
         whileHover={{ scale: 1.1 }}
 
-        className='w-72 h-70 m-4 mt-12 rounded-lg  flex flex-col  justify-center items-center '>
+        className='w-60 md:w-72 h-64 m-4 mt-12 rounded-lg flex flex-col justify-center items-center '>
 
-            <div className='w-11/12 pt-4 flex content-start max-h-40 '>
+            <div className='md:w-11/12 pt-4 flex content-start max-h-40 '>
                 <img src={src} alt="imagen de dulce cielo" className='rounded-sm w-full'/>
             </div>
             <div className='p-4 flex flex-col items-center w-full h-1/3'>
-                <h1 className='text-[#E9E9E9] font-semibold pt-2 text-2xl font-raleway'>
+                <h1 className='text-[#E9E9E9] font-semibold pt-2 md:text-2xl font-raleway'>
                     {titleWebCard}
                 </h1>
                 
-                <p className='text-[#E9E9E9] text-sm text-center font-raleway'>
+                <p className='text-[#E9E9E9] md:text-sm text-center font-raleway'>
                 {pWebCard} 
                 </p>
             </div>
